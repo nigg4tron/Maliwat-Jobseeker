@@ -3,10 +3,10 @@
 use Framework\Session;
 ?>
 <!-- Nav -->
-<header class="bg-blue-900 text-white p-4">
+<header class="bg-slate-800 text-white p-4">
     <div class="container mx-auto flex justify-between items-center">
         <h1 class="text-3xl font-semibold">
-            <a href="http://localhost/">Joobseek</a>
+            <a href="http://localhost/">Jobseeker</a>
         </h1>
         <nav class="flex items-center gap-4">
             <?php if (Session::has('user')) : ?>
